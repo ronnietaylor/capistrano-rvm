@@ -1,2 +1,1 @@
-require 'capistrano/rvm/assets'
-require 'capistrano/rvm/migrations'
+require 'capistrano/rvm/setup'

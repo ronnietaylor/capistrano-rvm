@@ -12,7 +12,7 @@ Assumes that `RAILS_ENV` matches stage, tasks are currently early examples
 Add this line to your application's Gemfile:
 
     gem 'capistrano', version: '~> 3.0.0'
-    gem 'capistrano-rvm', version: '~> 1.0.0'
+    gem 'capistrano-rvm', version: '~> 0.0.1'
 
 And then execute:
 
