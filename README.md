@@ -23,7 +23,7 @@ And then execute:
 
     # Capfile
 
-    require 'capistrano/rvm/setup'
+    require 'capistrano/rvm'
 
     # or require just what you need
 
