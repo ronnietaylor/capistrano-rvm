@@ -12,7 +12,7 @@ Assumes that `RAILS_ENV` matches stage, tasks are currently early examples
 Add this line to your application's Gemfile:
 
     gem 'capistrano', version: '~> 3.0.0'
-    gem 'capistrano-rails', version: '~> 1.0.0'
+    gem 'capistrano-rvm', version: '~> 1.0.0'
 
 And then execute:
 
@@ -23,12 +23,12 @@ And then execute:
 
     # Capfile
 
-    require 'capistrano/rails'
+    require 'capistrano/rvm'
 
     # or require just what you need
 
-    require 'capistrano/rails/assets'
-    require 'capistrano/rails/migrations'
+    require 'capistrano/rvm/assets'
+    require 'capistrano/rvm/migrations'
 
 ## Contributing
 
