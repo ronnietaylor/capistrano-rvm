@@ -2,8 +2,8 @@
 
 Rails specific tasks for Capistrano v3:
 
-  - `cap deploy:migrate`
-  - `cap deploy:normalise_assets`
+  - `cap rvm:test`
+  - `cap rvm:paths`
 
 Assumes that `RAILS_ENV` matches stage, tasks are currently early examples
 
@@ -23,12 +23,12 @@ And then execute:
 
     # Capfile
 
-    require 'capistrano/rvm'
+    require 'capistrano/rvm/setup'
 
     # or require just what you need
 
-    require 'capistrano/rvm/assets'
-    require 'capistrano/rvm/migrations'
+    require 'capistrano/rvm/blah'
+    require 'capistrano/rvm/blah2'
 
 ## Contributing
 
