@@ -8,9 +8,10 @@ namespace :rvm do
   desc 'Check for usable ruby'
   task :test do
     on roles :all do
-      within release_path do
+      #within release_path do
         execute :ruby, "-v"
-      end
+        execute :env
+      #end
     end
   end
 
@@ -22,9 +23,10 @@ namespace :rvm do
   namespace :setup do
     task :paths do
       on roles :app do
-        within release_path do
+        #within release_path do
           execute :ls, "-l"
-        end
+          execute :env
+        #end
       end
     end
   end
