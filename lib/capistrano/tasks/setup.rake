@@ -10,6 +10,8 @@ namespace :rvm do
     on roles :all do
       #within release_path do
         execute :ruby, "-v"
+        execute :bundle, "-v"
+        execute :gem, "-v"
         execute :env
       #end
     end
